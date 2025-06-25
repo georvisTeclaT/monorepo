@@ -1,0 +1,5 @@
+*** Comandos ***
+
+- Rodar o build dos projetos = npm run build-NOME-PROJETO
+
+- Rodar projeto => npx turbo run NOME-PROJETO

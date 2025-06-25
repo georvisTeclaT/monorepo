@@ -1,0 +1,22 @@
+{
+  "name": "components",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsc && npm run copy:css && npm run copy:assets && vite build --config vite.config.ts --mode production",
+    "copy:css": "cpx \"src/**/*.css\" dist/components/login-component/",
+    "copy:assets": "cpx \"src/assets/**/*\" dist/assets"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.4",
+    "cpx": "^1.5.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.0.0"
+  }
+}

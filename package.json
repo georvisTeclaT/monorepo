@@ -1,20 +1,27 @@
 {
-  "name": "@projeto-monorepo/source",
-  "version": "0.0.0",
-  "license": "MIT",
-  "scripts": {},
-  "private": true,
-  "dependencies": {},
-  "devDependencies": {
-    "@nx/js": "21.2.1",
-    "@swc-node/register": "~1.9.1",
-    "@swc/core": "~1.5.7",
-    "@swc/helpers": "~0.5.11",
-    "nx": "21.2.1",
-    "tslib": "^2.3.0",
-    "typescript": "~5.8.2"
+  "name": "projeto-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-react-app1": "turbo run build-react-app1",
+    "build-react-app2": "turbo run build-react-app2"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "workspaces": [
-    "packages/*"
-  ]
+    "monorepo-app/*",
+    "libs/*"
+  ],
+  "devDependencies": {
+    "turbo": "^2.5.4"
+  },
+  "packageManager": "npm@10.5.0",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^7.1.2"
+  }
 }

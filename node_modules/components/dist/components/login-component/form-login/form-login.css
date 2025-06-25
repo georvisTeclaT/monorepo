@@ -1,0 +1,119 @@
+.containerForm{
+    width: 80%;
+    margin: 40px auto 0;
+    padding: 10px 23px;
+    border-radius: 10px;
+
+    background: linear-gradient(139deg, rgba(255, 255, 255, 0.4) -11.86%, rgba(255, 255, 255, 0) 110.78%);
+}
+
+.titleLogin{
+    width: 100%;
+    margin: 30px 0 0;
+    font-weight: 600;
+    font-size: 18pt;
+}
+
+.titleText{
+    width: 100%;
+    margin: 10px 0 0;
+    font-size: 12pt;
+}
+
+#formLogin{
+    width: 100%;
+    padding: 15px 5px 5px;
+}
+
+.contentCampo-label{
+    width: 100%;
+}
+.contentCampo-label label{
+    width: 100%;
+    text-align: left;
+    font-size: 10pt;
+    color: #0a1332;
+}
+
+.contentCampo-input input{
+    box-sizing: border-box;
+    height: 3rem;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #0a1332;
+    border: none;
+    border-bottom: 1px solid #d8d8d8;
+    background-color: transparent;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.contentCampo-input input:focus {
+  outline: none;
+  border: none;
+}
+.contentCampo-input input::placeholder {
+  color: gray;
+  font-weight: 600;
+  font-size: 14px;
+  opacity: 0.7; /* controla a transparência */
+}
+
+.contentCampo-mostrarSenha{
+    width: 30px;
+    margin: -35px 13px 0 auto;
+}
+
+.contentCampo-check{
+    width: 100%;
+    padding: 5px 10px;
+}
+.contentCampo-check .contentInput label{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 400;
+    color: #9d9d9d;
+    margin-top: 4px;
+}
+
+.contentLink{
+    text-align: right;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    opacity: 1;
+    color: #4b557b;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+#btnAcessar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-width: 1px;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    opacity: 1;
+    color: #fff;
+    border-radius: 48px;
+    width: 100%;
+    border-color: #121d46;
+    background-color: #121d46;
+}
+
+#linkAcesso{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    opacity: 1;
+    color: #4b557b;
+    text-decoration-line: underline;
+}
